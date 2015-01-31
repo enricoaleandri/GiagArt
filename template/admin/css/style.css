@@ -1,0 +1,482 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    font-family: Helvetica;
+}
+h3 {
+    font-size: 25px;
+}
+#background
+{
+    width: 100%;
+    min-height: 700px;
+}
+#wrapper
+{
+    width: 90%;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.background span
+{
+    display: inline-block;
+}
+.Vdivider
+{
+    position: absolute;
+    top: 10%;
+    bottom: -6%;
+    border-left: 1px solid
+}
+.Odivider
+{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    border-left: 1px solid #000
+}
+.message
+{
+    margin: 7px;
+    font-weight: bold;
+    color: rgb(17, 208, 17);
+}
+
+.buttonDiv
+{
+    color: #FFF;
+    background-color: #000;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 15px 5px 15px;
+    float: right;
+}
+
+.buttonDiv:hover
+{
+    color: rgb( 230,117, 72);
+    cursor: pointer;
+}
+/** HOME PROGETTI - BEGIN **/
+
+#background_home #admin_content
+{
+    min-height: 300px;
+    width: 70%;
+    margin-left: 50px;
+    background-color: #d2d2d2;
+
+    float: right;
+    margin-top: 10%;
+}
+
+.row{height: 25px;}
+.row1{background-color: rgba(178, 205, 218,1);}
+.row1:hover {background-color: #00AFF5;cursor: pointer;}
+.row2{background-color: rgba(224,224,224,0.76);}
+.row2:hover {background-color: #00AFF5;cursor: pointer;}
+
+td.clickable
+{
+     padding: 2px;
+ }
+#background_home #admin_content .addLavoro
+{
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    font-size: 49px;
+}
+#background_home #admin_content .addLavoro:hover
+{
+    color: rgb( 230,117, 72);
+    cursor: pointer;
+}
+#background_home #admin_content .buttonWrap
+{
+    padding: 10px 0 10px 0;
+    background-color: #FFF;
+}
+
+/** HOME PROGETTI - END **/
+
+/** PROGETTO DETTAGLIO - BEGIN **/
+
+#background_lavoro_view #admin_content {
+    min-height: 500px;
+    width: 75%;
+    margin-left: 50px;
+    background-color: #d2d2d2;
+    float: right;
+    margin-top: 10%;
+}
+#background_lavoro_view #admin_content .wrapper
+{
+    width: 100%;
+    display: inline-block;
+}
+
+#background_lavoro_view #admin_content .wrapper > span
+{
+    margin: 20px;
+    width: 45%;
+}
+#background_lavoro_view #admin_content .wrapper .pictures
+{
+    display: inline-block;
+    float: left;
+}
+#background_lavoro_view #admin_content .wrapper .pictures .covers
+{
+    min-height: 300px;
+    padding-top: 30px;
+}
+
+#background_lavoro_view #admin_content .wrapper .pictures .slider img
+{
+    padding: 10px;
+    width: 40%;
+}
+#background_lavoro_view #admin_content .wrapper .details
+{
+    display: inline-block;
+}
+
+#background_lavoro_view #admin_content .wrapper .details .title
+{
+    width: 100%;
+    min-height: 45px;
+    margin-bottom: 5%;
+}
+#background_lavoro_view #admin_content .wrapper .details .descrizione
+{
+    width: 100%;
+    height: 300px;
+}
+
+#background_lavoro_view #admin_content .wrapper .details .tags
+{
+    width: 100%;
+
+    margin-top: 40px;
+}
+
+#background_lavoro_view  #addCoversButton
+{
+    font-size: 90px;
+    height: 190px;
+    width: 300px;
+    top: 25px;
+    left: 70px;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    display: table-cell;
+}
+
+#background_lavoro_view  .tagsRow
+{
+    height: 30px;
+    margin: 12px 0 12px 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+#background_lavoro_view  .tagsRow .tag
+{
+    display: inline-block;
+    text-align: center;
+    padding: 2px 14px 2px 14px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #FFF;
+    background-color: #000;
+}
+
+#background_lavoro_view #admin_content .addLavoro
+{
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    font-size: 49px;
+}
+#background_lavoro_view #admin_content .addLavoro:hover
+{
+    color: rgb( 230,117, 72);
+    cursor: pointer;
+}
+#background_lavoro_view #admin_content .buttonWrap
+{
+    padding: 10px 0 10px 0;
+    background-color: #FFF;
+}
+/** PROGETTO DETTAGLIO - END **/
+/** PROGETTO UPDATE - BEGIN **/
+
+
+
+/** PROGETTO UPDATE - END **/
+
+/** PROGETTTO INSERIMENTO - BEGIN **/
+#background_lavoro_update input,
+#background_lavoro_insert input
+{
+    width: 100%;
+    height: 30px;
+}
+#background_lavoro_update select,
+#background_lavoro_insert select
+{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+#background_lavoro_update label,
+#background_lavoro_insert label
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+#background_lavoro_update #admin_content,
+#background_lavoro_insert #admin_content
+{
+    min-height: 800px;
+    width: 75%;
+    margin-left: 50px;
+    background-color: #d2d2d2;
+    float: right;
+    margin-top: 10%;
+}
+#background_lavoro_update #admin_content .wrapper,
+#background_lavoro_insert #admin_content .wrapper
+{
+    width: 100%;
+    display: inline-block;
+}
+
+#background_lavoro_update #admin_content .wrapper > span,
+#background_lavoro_insert #admin_content .wrapper > span
+{
+    margin: 20px;
+    width: 45%;
+}
+#background_lavoro_update #admin_content .wrapper .pictures,
+#background_lavoro_insert #admin_content .wrapper .pictures
+{
+    display: inline-block;
+    float: left;
+}
+#background_lavoro_update #admin_content .wrapper .pictures .covers,
+#background_lavoro_insert #admin_content .wrapper .pictures .covers
+{
+    min-height: 220px;
+}
+#background_lavoro_update #admin_content .wrapper .details,
+#background_lavoro_insert #admin_content .wrapper .details
+{
+    display: inline-block;
+}
+
+#background_lavoro_update #admin_content .wrapper .details .title,
+#background_lavoro_update #admin_content .wrapper .details .category,
+#background_lavoro_update #admin_content .wrapper .details .status,
+#background_lavoro_insert #admin_content .wrapper .details .title,
+#background_lavoro_insert #admin_content .wrapper .details .category,
+#background_lavoro_insert #admin_content .wrapper .details .status
+{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 5%;
+}
+#background_lavoro_update #admin_content .wrapper .details .description,
+#background_lavoro_insert #admin_content .wrapper .details .description
+{
+    width: 100%;
+    height: 300px;
+}
+
+#background_lavoro_update #admin_content .wrapper .details .tags,
+#background_lavoro_insert #admin_content .wrapper .details .tags
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
+
+#background_lavoro_update  #addCoversButton:hover,
+#background_lavoro_insert  #addCoversButton:hover
+{
+    cursor: pointer;
+    color: rgb( 230,117, 72);
+}
+#background_lavoro_update #addCoversButton,
+#background_lavoro_insert #addCoversButton
+{
+    font-size: 32px;
+    width: 60%;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    display: table-cell;
+}
+
+#background_lavoro_update .slide:hover,
+#background_lavoro_insert .slide:hover
+{
+    color: rgb( 230,117, 72);
+    cursor: pointer;
+}
+#background_lavoro_update .slide,
+#background_lavoro_insert .slide
+{
+    background-color: #000;
+    color: #FFF;
+    font-size: 47px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+/** PROGETTO INSERIMENTO-END **/
+
+
+@media screen and (max-width: 1000px) {
+
+    .background #admin_content
+    {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .Vdivider
+    {
+        display: none !important;
+    }
+    .Odivider
+    {
+        display: block !important;
+    }
+    .background #admin_menu
+    {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .background #admin_menu ul
+    {
+        padding-left: 0px;
+    }
+}
+
+/** MENU - BEGIN **/
+
+.background #admin_menu
+{
+    height: 300px;
+    width: 200px;
+    margin-top: 5%;
+
+}
+.background #admin_menu ul li
+{
+    padding: 7px;
+    font-weight: bold;
+    list-style: none;
+}
+
+#admin_menu
+{
+    height: 50px;
+    width: 100%;
+}
+
+#admin_menu a
+{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 11pt;
+    color: rgb( 0,0, 0);
+    text-decoration: none;
+}
+#admin_menu a:active
+{
+    color: rgb( 0,0, 0);
+}
+#admin_menu a:hover
+{
+    color: rgb( 230,117, 72);
+}
+
+/** MENU - END **/
+
+
+/**  SETTINGS - BEGIN **/
+.labels
+{
+    margin: 8px;
+}
+
+#background_settings #admin_content
+{
+    width: 75%;
+    margin-left: 50px;
+    border: 3px solid #d2d2d2;
+    float: right;
+    margin-top: 5%;
+}
+#background_settings table
+{
+    width: 92%;
+}
+#background_settings table tr > td:first-child
+{
+    width: 180px;
+}
+#background_settings table tr  td input[type="text"],
+#background_settings table tr  td input[type="password"]
+{
+    width: 100%;
+    height: 28px;
+}
+#background_settings textarea
+{
+    width: 100%;
+    height: 120px;
+}
+#background_settings .title
+{
+    font-weight: bold;
+}
+/** SETTINGS - END **/
+
+
+/**  OVERRIDE UPLOAD LAYOUT - BEGIN **/
+
+.btn
+{
+    border-radius: 0px;
+}
+
+.progress {
+     margin-bottom: 0px;
+}
+.progress-extended{
+    margin-bottom: 20px;
+}
+.fileupload-progress.fade
+{
+    margin-left: 4%;
+}
+/**  OVERRIDE UPLOAD LAYOUT - END **/

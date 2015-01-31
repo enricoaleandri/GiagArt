@@ -1,0 +1,60 @@
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file : config/properties/config.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file by admin : ../config/properties/config.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file : config/properties/svil.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file by admin : ../config/properties/svil.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file : config/properties/page.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file by admin : ../config/properties/page.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file : config/properties/config.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file by admin : ../config/properties/config.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file : config/properties/svil.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file by admin : ../config/properties/svil.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file : config/properties/page.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading properties from file by admin : ../config/properties/page.properties 
+127.0.0.1 - 11/12/2014 01:38:47 - DEBUG -  File language :  Language/lang/IT_language.properties !!! 
+127.0.0.1 - 11/12/2014 01:38:47 - SUPER MODE - Loading lang properties from file by admin : ../Language/lang/ 
+127.0.0.1 - 11/12/2014 01:38:47 - DEBUG -  File language :  ../Language/lang/IT_language.properties !!! 
+127.0.0.1 - 11/12/2014 01:38:47 - DEBUG -  File language :  ../Language/lang/IT_language.properties !!! 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - Inizializzazione dato per tabella  in classe :settingsDAO 
+127.0.0.1 - 11/12/2014 01:38:48 - INFO - SELECT * FROM ga_settings WHERE livello >= 1 
+127.0.0.1 - 11/12/2014 01:38:48 - INFO - Framework started! I'm gona register autoload 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - autoloaded className Dispatcher 
+127.0.0.1 - 11/12/2014 01:38:48 - PROFILING - index.php Function : autoload - execution time : 0.0038249492645264 s 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - queryString :  SERVER QUERY STRING :    REQUEST_URI : /GiagArt/admin/ 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - url : /admin/  
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - Administration url : /  
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - autoloaded className Controller 
+127.0.0.1 - 11/12/2014 01:38:48 - PROFILING - index.php Function : autoload - execution time : 0.0019681453704834 s 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - autoloaded className AbstractTinaFramework 
+127.0.0.1 - 11/12/2014 01:38:48 - PROFILING - index.php Function : autoload - execution time : 0.0039689540863037 s 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - autoloaded className ControllerInterface 
+127.0.0.1 - 11/12/2014 01:38:48 - PROFILING - index.php Function : autoload - execution time : 0.0026650428771973 s 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - autoloaded className AbstractController 
+127.0.0.1 - 11/12/2014 01:38:48 - PROFILING - index.php Function : autoload - execution time : 0.013689041137695 s 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - autoloaded className CollectorController 
+127.0.0.1 - 11/12/2014 01:38:48 - PROFILING - index.php Function : autoload - execution time : 0.050727844238281 s 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - controllerClassName : CollectorController   actionFunctionName : default 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - autoloaded className Request 
+127.0.0.1 - 11/12/2014 01:38:48 - PROFILING - index.php Function : autoload - execution time : 0.0030441284179688 s 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - autoloaded className Response 
+127.0.0.1 - 11/12/2014 01:38:48 - PROFILING - index.php Function : autoload - execution time : 0.003676176071167 s 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - Class :  -  base_path : /GiagArt/  
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getURLPathAdmin() - test : /GiagArt/admin 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getURLPathAdmin() - sefl : /GiagArt   - $-SERVER[PHP_SELF] /GiagArt/admin/index.php 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getURLPathAdmin() - page_path : template 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getHostAdmin() - test : /GiagArt/admin 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getHostAdmin() - sefl : /GiagArt   - $-SERVER[PHP_SELF] /GiagArt/admin/index.php 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getHostAdmin() - page_path : template 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getHostAdmin() - HTTP_HOST :localhost:8000 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - Action accessible 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - Class :  -  host : loginpageActionDefault 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getURLPathAdmin() - test : /GiagArt/admin 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getURLPathAdmin() - sefl : /GiagArt   - $-SERVER[PHP_SELF] /GiagArt/admin/index.php 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getURLPathAdmin() - page_path : template 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getHostAdmin() - test : /GiagArt/admin 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getHostAdmin() - sefl : /GiagArt   - $-SERVER[PHP_SELF] /GiagArt/admin/index.php 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getHostAdmin() - page_path : template 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - getHostAdmin() - HTTP_HOST :localhost:8000 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - autoloaded className AmministrazioneController 
+127.0.0.1 - 11/12/2014 01:38:48 - PROFILING - index.php Function : autoload - execution time : 0.0038909912109375 s 
+127.0.0.1 - 11/12/2014 01:38:48 - DEBUG - Pagina in inclusione-- path : template/    Property : admin/login_page.php 
+127.0.0.1 - 11/12/2014 01:38:48 - PROFILING - Class :   Function : defaultAction - execution time : 0.046242952346802 s 

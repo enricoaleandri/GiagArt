@@ -1,0 +1,30 @@
+RewriteEngine On
+RewriteBase /GiagArt/
+
+#RewriteCond ^(*) !(\.png|\.css|\.js|\.jpg|\.jpeg|\.ico|\.ttf|\.woff|\.txt|\.gif)$ [NC]
+#RewriteRule !(\.png|\.css|\.js|\.jpg|\.jpeg|\.ico|\.ttf|\.woff|\.txt|\.gif)$ index.php/$1 [L]
+
+#RewriteCond ^(admin/* !(\.png|\.css|\.js|\.jpg|\.jpeg|\.ico|\.ttf|\.woff|\.txt|\.gif)$ [NC]
+#RewriteRule !(\.png|\.css|\.js|\.jpg|\.jpeg|\.ico|\.ttf|\.woff|\.txt|\.gif)$ admin/index.php/$1 [L]
+
+#RewriteRule ^ - [L]
+
+# Don't rewrite admin urls
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(\.png|\.css|\.js|\.jpg|\.jpeg|\.ico|\.ttf|\.woff|\.txt)$ [NC]
+
+RewriteRule !(\.png|\.css|\.js|\.jpg|\.jpeg|\.ico|\.ttf|\.woff|\.txt|\.gif)$ index.php/$1 [L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^admin/
+RewriteRule ^!(\.png|\.css|\.js|\.jpg|\.jpeg|\.ico|\.ttf|\.woff|\.txt|\.gif)$  admin/index.php/$1 [L,NC]
+
+
+#RewriteRule ^(.*)$ index.php/$1 [L]
+#ErrorDocument 404 /errors/404.html
+#ErrorDocument 403 /errors/403.html
+#ErrorDocument 500 /errors/500.html

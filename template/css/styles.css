@@ -1,0 +1,202 @@
+ body {
+	margin: 0;
+	padding: 0;
+    text-align: center;
+
+     font-family: Helvetica;
+ }
+
+ a
+ {
+     font-family: Helvetica;
+     font-weight: bold;
+     font-size: 11pt;
+     color: rgb( 0,0, 0);
+     text-decoration: none;
+ }
+  a:active
+ {
+     color: rgb( 0,0, 0);
+ }
+ a:hover
+ {
+     color: rgb( 230,117, 72);
+ }
+ #background
+ {
+     width: 100%;
+     height: 700px;
+ }
+
+ .buttonDiv
+ {
+     color: #FFF;
+     background-color: #000;
+     display: inline-block;
+     margin: 5px;
+     padding: 5px 15px 5px 15px;
+     float: right;
+ }
+
+ .buttonDiv:hover
+ {
+     color: rgb( 230,117, 72);
+     cursor: pointer;
+ }
+ /**  CONTACT - BEGIN **/
+ #contactArea
+ {
+     width: 100%;
+     margin-top: 20px;
+ }
+ #contactArea span
+ {
+     display: inline-block;
+     text-align: left;
+ }
+ #contactArea span lu
+ {
+     list-style: none;
+ }
+ #contactArea span lu li
+ {
+     margin-bottom: 20px;
+     height: 20px;
+     vertical-align: middle;
+ }
+ #contactArea span#images
+ {
+     width: 114px;
+     padding-left: 14%;
+     margin-left: 7%;
+     font-weight: bold;
+ }
+ #contactArea span#text
+ {
+     width: 520px;
+     font-weight: bold;
+ }
+ /**  CONTACT - END **/
+
+
+ /**  ABOUT - BEGIN **/
+
+ #content
+ {
+    width: 100%;
+ }
+ #content #pics
+ {
+     width: 30%;
+     display: inline-block;
+ }
+
+ #content #pics img
+ {
+     width: 360px;
+ }
+ #content #text
+ {
+     width: 40%;
+     margin-left: 40px;
+     display: inline-block;
+     text-align: justify
+ }
+
+ #content #curriculum
+ {
+     display: inline-block;
+     margin-left: 50%;
+ }
+
+ #content #curriculum img
+ {
+    float: right;
+ }
+
+ #content #curriculum div
+ {
+     float: right;
+     position: absolute;
+     margin-top: 10px;
+     margin-left: 10px;
+     font-size: 26px;
+ }
+ #content #curriculum
+ {
+     display: inline-block;
+     margin-left: 50%;
+     color: white;
+     text-align: center;
+ }
+
+ @media screen and (max-width: 1000px) {
+     #content #pics {
+         width: 100%;
+     }
+     #content #text {
+         width: 80%;
+     }
+ }
+
+     /**  ABOUT - END **/
+
+
+
+ /**  HOME - BEGIN **/
+
+ /**  HOME - END **/
+
+
+ /**  PORTFOLIO - BEGIN **/
+
+ #background .portfolio
+ {
+     width: 100%;
+     display: inline-block;
+ }
+
+
+ #background .portfolio .gallery
+ {
+     max-width: 800px;
+     display: inline-block;
+ }
+
+
+ #background .portfolio span
+ {
+     display: inline-block;
+     cursor: pointer;
+ }
+ #background .portfolio span.pic1,
+ #background .portfolio span.pic2,
+ #background .portfolio span.pic3,
+ #background .portfolio span.pic0{
+     width: 160px;
+     margin: 5px 5px 5px 5px;
+     float:left;
+ }
+
+ /**  PORTFOLIO - END **/
+
+
+ /** MENU - BEGIN **/
+ #logo
+ {
+     margin-top: 20px;
+ }
+
+    #menu
+    {
+        margin-top: 10px;
+        height: 50px;
+        width: 100%;
+    }
+    #menu span
+    {
+        margin: 35px;
+    }
+
+
+ /** MENU - END **/
